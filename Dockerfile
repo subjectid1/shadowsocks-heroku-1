@@ -16,5 +16,5 @@ RUN set -ex\
         tar zx -C /v2raybin \
     && install /v2raybin/v2ray-plugin_linux_amd64 /usr/bin/v2ray-plugin \
     && rm -rf /v2raybin
-
+EXPOSE 443
 CMD /entrypoint.sh
