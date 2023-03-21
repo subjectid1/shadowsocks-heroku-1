@@ -3,7 +3,7 @@
 cat <<EOF
 {
     "server":"0.0.0.0",
-    "server_port":"443",
+    "server_port":"80",
     "password":${PASSWORD_JSON},
     "timeout":300,
     "method":"${ENCRYPT}",
