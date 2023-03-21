@@ -2,7 +2,7 @@
 # Fast_open must be false on heroku
 cat <<EOF
 {
-    "server":"cawa-ss.herokuapp.com",
+    "server":"hh1-qhzas.b4a.run",
     "server_port":"443",
     "password":${PASSWORD_JSON},
     "timeout":300,
